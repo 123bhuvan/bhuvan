@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf("elements before before swappig \n");
+    scanf("%d%d",&a,&b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("elements after swapping are a=%d b=%d",a,b);
+}    
